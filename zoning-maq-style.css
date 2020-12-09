@@ -1,0 +1,1049 @@
+@charset "utf-8";
+
+body {
+    /*display: flex;
+    height: 100%;*/
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* style header */
+
+#conteneur {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.contact {
+    background-color: #383234;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+    #avezprojet {
+    color: white;
+    padding-top: 0.5em;
+    padding-right: 5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    #contactx {
+    color: white;
+    padding-top: 0.5em;
+    padding-right: 5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    #logofb {
+    padding-top: 0.4em;
+    padding-right: 2em;
+}
+
+    #logotwitter {
+    padding-top: 0.4em;
+    padding-right: 2.7em;
+}
+
+.icon {
+    display: none;
+}
+
+.logo {
+    background-color: #f0f0f0;
+    height: 8.5vh;
+    width: 13%;
+    display: flex;
+}
+
+    #logo {
+    margin-top: -1.6em;
+    padding-left: 3em;
+    z-index: 2;
+}
+
+nav {
+    background-color: #f0f0f0;
+    height: 8.5vh;
+    width: 87%;
+    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    #bouton1-nav {  
+    padding-left: 3em; 
+    padding-top: 0.8em;
+    font-size: 1.3em; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    #boutons-nav {
+    padding-left: 3.8em;   
+    padding-top: 0.8em;
+    font-size: 1.3em; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+/* style accroche */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section .accroche {
+    background-image: url("slider-1.jpg");
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    .barre {
+        background-color: #868686;
+        width: 100%;
+        height: 1.8vh;
+    }
+
+    #agencedecom {
+        color: #A3C100;
+        width: 100%;
+        height: 200px;
+        margin-top: 1.5em;
+        margin-bottom: 2em;
+        text-align: center;
+        justify-content: center;
+        font-size: 4.3em;
+        font-family: helvetica;
+        font-weight: bold;
+    }
+
+    #demarquez {
+        width: 100vh;
+        height: 400px;
+        margin-top: -5em;
+        text-align: right;
+    }
+        .titre {
+            color: #A3C100;
+            font-family: helvetica;
+            font-size: 2.6em;
+            font-weight: bold;
+    }
+        .soustitre {
+        font-family: helvetica;
+        font-size: 2.4em;
+        font-weight: bold;
+    }
+
+    #imagessite {
+        width: 100vh;
+        height: 400px;
+        margin-top: -8em;
+    }
+        #logosites {
+            margin-top: -4em;
+            margin-left: 13em;
+        }
+        #logo-res {
+            display: none;
+        }
+
+/* style présentation "lampe" */
+
+section #presentation {
+    background-color: #f0f0f0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#marge {
+    width: 100%;
+    height: 8vh;
+}
+
+#espacelamp {
+    background-color:#f0f0f0;
+    width: 30%;
+    height: 20vh;
+    margin-top: -1em;
+}
+
+#imagelamp {
+    width: 10%;
+    height: 20vh;
+    padding-top: 0.5em;
+    margin-top: -1em;
+}
+
+#titrespres {
+    width: 60%;
+    height: 20vh;
+    padding-top: 1.8em;
+    margin-top: -1em;
+}
+
+    .titrepres {
+    color: #A3C100;
+    font-family: helvetica;
+    font-size: 2.4em;
+}
+
+    .soustitrepres {
+    font-family: helvetica;
+    font-size: 2.4em;
+    display: inline;
+}
+
+    .soustitrepresb {
+    font-family: helvetica;
+    font-size: 2.4em;
+    font-weight: bold;
+    display: inline;
+}
+
+/* style présentation experience */
+
+#barreexperience {
+    height: 5vh;
+    margin: auto;
+    margin-top: -2em;
+    font-size: 1.5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#experience {
+    background-color: yellow;
+    z-index: 3;
+    height: 5vh;
+    margin: auto;
+    margin-top: 1em;
+    font-family: helvetica;
+    font-size: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    position: absolute;
+}
+
+section .experience {
+    background-color: white;
+    width: 80%;
+    height: 45vh;
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    z-index: 1;
+    flex-flow: column;
+    border: solid 0.5em #aeaeae;
+}
+
+#experience2 {
+    display: flex;
+}
+
+.titreexpe {
+    margin-top: 10em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.soustitreexpe {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+    #hebergement {
+    background-image: url("heb.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 25%;
+    height: 45vh; 
+    position: relative;
+}
+    #developpement {
+    background-image: url("dev.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 25%;
+    height: 45vh;  
+    position: relative;
+}
+    #graphique {
+        background-image: url("crea.png");
+        background-repeat: no-repeat;
+        background-position: top;
+    width: 25%;
+    height: 45vh;  
+    position: relative;  
+}
+    #webmarketing {
+        background-image: url("web.png");
+        background-repeat: no-repeat;
+        background-position: top;
+    width: 25%;
+    height: 45vh; 
+    position: relative;
+}
+
+/* style nav secondaire */
+
+section .navigationsecondaire {
+    background-color: seagreen;
+    width: 100%;
+    /* height: 50vh; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+    #agence {
+    background-color: #272727;
+    width: 34%;
+    height: 51vh;
+}
+    #crea {
+    background-color: #272727;
+    width: 34%;
+    height: 51vh;
+}
+    #domaines {
+    background-color: #272727;
+    width: 34%;
+    height: 51vh;
+}
+    .titrenav {
+    color: #A3C100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: 1.8em;
+    padding-left: 6em;
+}
+    .soustitrenav {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    padding-left: 7em;
+    }
+
+/* style footer */
+
+.footer {
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    clear: both;
+    width: 100%;
+    height: 6vh;  
+}
+
+.footer p {
+    display:flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    width: auto;
+    height: 3vh;
+    margin: 0;
+    padding:0 5vw 0 0;
+    box-shadow: inset -0.05em 0 rgb(0, 0, 0);
+}
+#premierfooter {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 0;
+    padding:0 5vw 0 0;
+    box-shadow: inset -0.05em 0 rgb(0, 0, 0);
+}
+#dernierfooter {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 0;
+    box-shadow: unset;
+}
+
+
+/* Medias queries 540 */
+
+@media (max-width: 540px) {
+
+    body {
+        width: 100%;
+        background-color: brown;
+    }
+
+    /* nav */
+
+    .topnav {
+        height: 12vh;
+    }
+    .contact {
+        display: none;
+    }
+    .logo {
+        margin-left: -2em;
+    }
+    #logo {
+        width: 50px;
+        padding-top: 2em;
+        padding-left: -4em;
+    } 
+    #bouton1-nav {
+        display: none;
+    }
+    #boutons-nav {
+        display: none;
+    }
+    .icon {
+        display: block;
+        color: black;
+        margin-top: 2.3em;
+        margin-left: 28em;
+    }
+
+    /* accroche */
+
+.accroche {
+    background-repeat: no-repeat;
+    }   
+    #demarquez {
+        display: none;
+    }
+    #imagessite {
+        margin: 0;
+        background-image: url("logo-res-300.png");
+        background-repeat: no-repeat;
+        margin-left: 7em;
+    } 
+    #logosites {
+        display: none;
+    }
+    #logo-res {
+        margin:0;
+    }
+    .accroche {
+        width: 50%;
+        height: 100vh;
+    }
+#demarquez {
+    height: 30vh;
+    padding-top: 6em;
+}
+    #agencedecom {
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+        font-size: 4em;
+        font-family: helvetica;
+        font-weight: bold;  
+    }
+    .titre {
+        display: none;
+    }
+    .soustitre {
+       display: none;
+    }
+
+    /* presentation */
+
+#presentation {
+    height: auto;
+}
+    #titrespres {
+        margin-left: 6em;
+        margin-top: -3em;
+        padding-bottom: 3em;
+    }
+    .titrepres {
+        font-size: 2em;
+    }
+    .soustitrepres {
+        font-size: 2.3em;
+    }
+    .soustitrepresb {
+        font-size: 2.3em;
+    }
+    #espacelamp {
+        display: none;
+    }
+
+#experience2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#experience {
+    font-size: 0.8em;
+    }
+section .experience {
+    height: 165vh;
+    margin-top:0;
+}    
+    #hebergement {
+        margin-bottom: -3em;
+        width:100vh;
+        margin-top: -3em;
+    }
+    #developpement {
+        width:100vh;
+        margin-bottom: -3em;
+    }
+    #graphique {
+        width:100vh;
+        margin-bottom: -3em;
+    }
+    #webmarketing {
+        width:100vh;
+    }
+
+    /* nav2 */
+
+.navigationsecondaire {
+width: 100%;
+height: 35vh;
+display: flex;
+flex-wrap: wrap;
+background-color: #272727;
+    }
+    #agence {
+        width: 100%;
+        height: 10vh;
+        margin:0;
+    }
+    #crea {
+        width: 100%;
+        height: 10vh;
+        margin:0;
+    }
+    #domaines {
+        width: 100%;
+        height: 10vh;
+        margin:0;
+        padding-bottom: 3em;
+    }
+    .soustitrenav {
+        display: none;
+        margin-top: -2em;
+    }
+
+    /* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+}    
+    #premierfooter {
+        margin: 0;
+        width: 100%;
+        height: 3vh;
+        text-align: center;
+        padding-top: 1em;
+    }
+    .footer p {
+        display: none;
+    }
+    #dernierfooter {
+        display: none;
+    }
+}  
+
+/* Media queries 768 */
+@media (max-width: 768px) {
+
+    /* nav */
+
+    #avezprojet {
+        display: none;
+    }
+    #contactx {
+        display: none;
+    }
+    .logo {
+        margin-left: -2em;
+    }
+    #logo {
+        width: 50px;
+        padding-top: -1.5em;
+        padding-left: -4em;
+    } 
+    #bouton1-nav {
+        display: none;
+    }
+    #boutons-nav {
+        display: none;
+    }
+    .icon {
+        display: block;
+        color: black;
+        margin-top: 1.5em;
+        margin-left: 40em;
+    }
+
+    /* accroche */
+
+    #demarquez {
+        display: none;
+    }
+    #imagessite {
+        margin: 0;
+        background-image: url("logo-res-300.png");
+        background-repeat: no-repeat;
+        margin-left: 15em;
+        margin-top: 7em;
+    } 
+    #logosites {
+        display: none;
+    }
+    #logo-res {
+        margin:0;
+    }
+
+    /* presentation */
+
+    #presentation {
+        height: auto;
+    }
+        #espacelamp {
+        display: none;
+    }
+        #titrespres {
+            padding-left: 8em;
+            margin-top: -1em;
+            padding-bottom: 3em;
+        }
+        .titrepres {
+            font-size: 2em;
+        }
+        .soustitrepres {
+            font-size: 2.3em;
+        }
+        .soustitrepresb {
+            font-size: 2.3em;
+        }
+        #espacelamp {
+            display: none;
+        }
+        #imagelamp {
+            padding-left: 2em;
+            margin-top: 0em;
+        } 
+    
+    #experience2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        }
+        #experience {
+            font-size: 0.8em;
+            margin-top: 1em;
+            }
+        section .experience {
+            height: auto;
+            margin-top: 3em;
+        }    
+            #hebergement {
+                width:50%;
+                margin: 0;
+                margin-top: 2em;
+            }
+            #developpement {
+                width:50%;
+                margin: 0;
+                margin-top: 2em;
+            }
+            #graphique {
+                width:50%;
+                margin: 0;
+                margin-top: -2em;
+            }
+            #webmarketing {
+                width:50%;
+                margin: 0;
+                margin-top: -2em;
+            }   
+            
+    /* nav2 */
+    
+    .navigationsecondaire {
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #272727;
+            }
+            #agence {
+                width: 100%;
+                height: 10vh;
+                margin:0;
+                align-items: center;
+
+            }
+            #crea {
+                width: 100%;
+                height: 10vh;
+                margin:0;
+            }
+            #domaines {
+                width: 100%;
+                height: 10vh;
+                margin:0;
+                padding-bottom: 3em;
+            }
+            .titrenav {
+                text-align: center;
+                padding-left: 0;
+
+            }
+            .soustitrenav {
+                display: none;
+                margin-top: -2em;
+            }
+        
+
+    /* footer */
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }    
+        #premierfooter {
+            margin: 0;
+            width: 100%;
+            height: 3vh;
+            text-align: center;
+            padding-top: 1em;
+        }
+        .footer p {
+            display: none;
+        }
+        #dernierfooter {
+            display: none;
+        }
+}    
+
+/* Media queries 992 */
+@media (max-width: 992px) {
+
+    /* nav */
+
+    .logo {
+        margin-left: -2em;
+    }
+    #logo {
+        width: 50px;
+        padding-top: -1.5em;
+        padding-left: -4em;
+    } 
+    #bouton1-nav {
+        display: none;
+    }
+    #boutons-nav {
+        display: none;
+    }
+    .icon {
+        display: block;
+        color: black;
+        margin-top: 1.5em;
+        margin-left: 52em;
+    }
+
+/* accroche */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section .accroche {
+    background-image: url("slider-1.jpg");
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    #agencedecom {
+        color: #A3C100;
+        width: 100%;
+        height: 200px;
+        margin-top: 1.5em;
+        margin-bottom: 2em;
+        text-align: center;
+        justify-content: center;
+        font-size: 3em;
+        font-family: helvetica;
+        font-weight: bold;
+    }
+
+    #demarquez {
+        width: 50vh;
+        height: 400px;
+        margin-top: -8em;
+        text-align: right;
+        margin-left: -6em;
+    }
+        .titre {
+        color: #A3C100;
+        font-family: helvetica;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+        .soustitre {
+        font-family: helvetica;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+    #imagessite {
+        width: 50vh;
+        height: 400px;
+        margin-top: -8em;
+    }
+        #logosites {
+            margin-top: -2em;
+            margin-left: 2em;
+        }
+        #logo-res {
+            display: none;
+        }
+
+/* presentation */        
+    
+#presentation {
+    height: auto;
+}
+    #espacelamp {
+    display: none;
+}
+    #titrespres {
+        padding-left: 8em;
+        margin-top: -1em;
+        padding-bottom: 3em;
+    }
+    .titrepres {
+        font-size: 2em;
+        padding-top: 1em;
+    }
+    .soustitrepres {
+        font-size: 2.3em;
+    }
+    .soustitrepresb {
+        font-size: 2.3em;
+    }
+    #espacelamp {
+        display: none;
+    }
+    #imagelamp {
+        padding-left: 2em;
+        margin-top: 0em;
+    } 
+
+#experience2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    }
+    #experience {
+        font-size: 0.8em;
+        margin-top: 1em;
+        }
+    section .experience {
+        height: auto;
+        margin-top: 3em;
+    }    
+        #hebergement {
+            width:50%;
+            margin: 0;
+            margin-top: 2em;
+        }
+        #developpement {
+            width:50%;
+            margin: 0;
+            margin-top: 2em;
+        }
+        #graphique {
+            width:50%;
+            margin: 0;
+            margin-top: -2em;
+        }
+        #webmarketing {
+            width:50%;
+            margin: 0;
+            margin-top: -2em;
+        }   
+
+    /* nav2 */
+    
+    section .navigationsecondaire {
+        height: 45vh;
+    }    
+        #agence {
+        width: 32%;
+        height: 45vh;
+    }
+        #crea {
+        width: 38%;
+        height: 45vh;
+    }
+        #domaines {
+        width: 32%;
+        height: 45vh;
+    }
+        .titrenav {
+        font-size: 1.4em;
+        padding-left: 3em;
+    }
+        .soustitrenav {
+        font-size: 1em;
+        padding-left: 4em;
+    }
+    
+    /* footer */
+
+        .footer {
+            display: flex;
+            justify-content: center;
+        }    
+            #premierfooter {
+                margin: 0;
+                width: 100%;
+                height: 3vh;
+                text-align: center;
+            }
+            .footer p {
+                display: none;
+            }
+            #dernierfooter {
+                display: none;
+            }   
+}    
+
+/* Media queries 1200 */
+@media (max-width: 1200px) {
+
+/* nav */
+
+.icon {
+    display: none;
+}
+.logo {
+    margin-left: -1em;
+}
+#bouton1-nav {  
+    padding-left: 6em;
+    font-size: 1em;
+    padding-top: 1.3em;
+    font-weight: bold;
+}
+#boutons-nav {
+    font-size: 1em;
+    padding-left: 3.5em;
+    padding-top: 1.3em;
+    font-weight: bold;
+}
+
+/* accroche */
+
+    #agencedecom {
+        font-size: 4em;
+    }
+    #demarquez {
+        width: 80vh;
+        height: 400px;
+        margin-top: -8em;
+        text-align: right;
+        margin-left: -6em;
+    }
+        .titre {
+        color: #A3C100;
+        font-family: helvetica;
+        font-size: 2.2em;
+        font-weight: bold;
+    }
+        .soustitre {
+        font-family: helvetica;
+        font-size: 2.2em;
+        font-weight: bold;
+    }
+
+    #imagessite {
+        width: 50vh;
+        height: 400px;
+        margin-top: -8em;
+    }
+        #logosites {
+            margin-top: -2em;
+            margin-left: 2em;
+        }
+
+/* presentation */
+
+#espacelamp {
+    width:5%;
+}
+.titrepres {
+    margin-left: 1em;
+}
+#experience2 {
+    height: 42vh;
+}
+.soustitreexpe {
+    font-size: 0.8em;
+    padding-left: 1em;
+    margin-right: 1em;
+}
+
+    /* nav2 */
+    
+    section .navigationsecondaire {
+        height: 45vh;
+    }    
+        #agence {
+        width: 32%;
+        height: 45vh;
+    }
+        #crea {
+        width: 38%;
+        height: 45vh;
+    }
+        #domaines {
+        width: 32%;
+        height: 45vh;
+    }
+        .titrenav {
+        font-size: 1.4em;
+        padding-left: 3em;
+    }
+        .soustitrenav {
+        font-size: 1em;
+        padding-left: 4em;
+    }
+
+/* footer */
+
+#premierfooter {
+    padding-right: 2em;
+}
+.footer p {
+    padding-right: 2em;
+}
+
+}    
